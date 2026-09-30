@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+.title{
+    display: flex;
+    padding: 25px;
+    text-align: center;
+    background-color: darkblue;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px;
+    padding: 50px;
+    background-color: grey;
+    text-align: center;
+}
+
+h1 {
+    margin: 10px;
+
+}
+
+h2{
+    margin: 15px;
+    color: lightblue;
+}
+
+p{
+    margin: 15px;
+
+}
+
+nav{
+    margin: 15px;
+}
+
+nav a{
+    margin: 10px;
+    color: white;
+}
+
+table{
+    margin: 20px auto;
+}
+
+fieldset{
+    margin: 20px;
+    padding: 20px;
+}
+
+footer{
+    margin-top: 30px;
+}
+
